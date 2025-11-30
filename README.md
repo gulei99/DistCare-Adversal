@@ -14,7 +14,7 @@ Emerging diseases pose significant challenges for symptom identification and tim
 
 Our model adopts a three-stage transfer learning framework to enable knowledge transfer from a data-rich source domain to a data-scarce target domain.
 
-![Model Framework](https://i.imgur.com/K1LdC7I.png)
+![Model Framework](./figures/framework.pdf)
 *Figure: The overall framework for the emerging disease prediction model. Left: Training the Teacher Model on the source dataset; Middle: Training the domain-invariant Transition Model; Right: Transferring knowledge to the target domain model and fine-tuning.*
 
 1.  **Stage 1: Pretrain Teacher Model**: Train a robust Multi-Channel GRU (MCGRU) model on a large-scale source domain dataset (e.g., PhysioNet) to serve as the source of knowledge.
